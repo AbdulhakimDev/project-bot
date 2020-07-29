@@ -5,7 +5,7 @@ import telebot
 from telebot import types
 import redis as r
 
-bot = telebot.TeleBot('%token%'); #bot tokenini kiriting
+bot = telebot.TeleBot('1297455433:AAGsj72jzZtXxKm13J-3RRaNWVYVs8Oxkvk'); #bot tokenini kiriting
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
 @bot.message_handler(commands=['start'])
